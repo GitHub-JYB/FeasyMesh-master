@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_light"
+    app:startDestination="@id/whiteFragment">
+
+    <fragment
+        android:id="@+id/whiteFragment"
+        android:name="com.feasycom.feasymesh.light.WhiteFragment"
+        android:label="WhiteFragment" />
+    <fragment
+        android:id="@+id/colourFragment"
+        android:name="com.feasycom.feasymesh.light.ColourFragment"
+        android:label="ColourFragment" />
+</navigation>
